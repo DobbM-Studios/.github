@@ -2,66 +2,72 @@
 
 ### Our Philosophy
 
-We don’t do over-engineered, exclusionary software. Technology is at its best when it’s simple to use, clean to read, and built to actually help people. 
+We don't engage in the creation of over-engineered and exclusionary technology. **Technology should be intuitive, well-structured, and a tool for human progress.**
 
-We build everything around three basic rules: 
+We adhere to these *design principles* in everything we create:
 
-* **Empathy-First Engineering:** We don’t build features just because a technology is trending on X or Hacker News. We build things that solve real frustration for students, creators, and everyday internet users.
-* **Readable Code over Everything:** Clean code isn't about showing off; it's about accessibility. We keep our architecture lean so that anyone—from a senior engineer to someone in their first week of a bootcamp—can dive into our codebases and actually understand what's going on.
-* **Open Collaboration:** True innovation doesn't happen behind corporate walls. If you contribute code, report an issue, or fix our typos in the docs, you’re part of the team. Period.
+#### Core Design Pillars
+* **Empathy-Driven Engineering**: We don't design products and features around technologies which bubble up on Hacker News or Twitter. We focus on creating technology that solves the pain points of students, creators and those who consume the internet.
+* **Readable Code-First Mentality**: Our code structure favors accessibility and flexibility. We strive for an architecture that allows for easy onboarding regardless of technical experience.
+* **Open Collaboration**: No innovation is created in a vacuum. You should feel empowered to contribute to Dobbm Studios if you can write a cogent issue report.
 
-### What We're Building
+---
 
-#### Flagship Project: StudyOS *(Working Title)*
+### What We're Working On
 
-*Note: StudyOS is in active development. Expect dust and missing features.* 
+#### Flagship Project: StudyOS (Working Title)
 
-Traditional school separates learning from engagement. **StudyOS** bridges that gap. We’re merging workspace productivity with RPG gaming mechanics, turning your academic grind into a shared digital adventure. 
+> *Note: The project is actively being developed, and as such this overview is subject to change.*
 
-StudyOS Architecture Overview
+Traditional schooling has a fundamental flaw baked into its design: studying and engaging with material is fundamentally separate and isolated from the act of learning itself. **StudyOS seeks to innovate on this paradigm** by fusing workplace productivity tools with the gamified systems common to role-playing games.
 
- ├── Gamified Workspace (Kanban Quests, XP Milestones)
- 
- ├── AI Mentorship Core (Context-Aware Tutoring)
- 
- └── Peer-to-Peer Nexus (Real-time Flashcard Duels)
+#### Project Architecture & Pillars
+StudyOS Overview
 
-#### Core Features:
+├── Gamified Workspace (Quests, XP, Loot)
 
-* **The Quest Ledger:** Ditch the boring to-do lists. StudyOS turns tasks (like reading a chapter or finishing a quiz) into quests that yield XP, loot drops, and level-ups.
-* **Smart AI Mentors:** Integrated AI models that act as 24/7 localized mentors. They don't just hand you the answers; they use Socratic questioning to help you figure it out yourself.
-* **Study Lobbies & Guilds:** Real-time rooms where you can jump into Pomodoro timers with friends, form study parties, or challenge someone to a high-stakes flashcard duel.
+├── AI Mentorship Core
 
-### Our Tech Stack (and how we build)
+└── Peer Nexus (Duel/Party System)
 
-We choose the right tool for the job, but we bias toward modern, high-performance, and type-safe systems. 
+* **The study ledger** replaces standard task-tracking systems with a collection of quests and achievements, awarding XP and loot upon completion of specific acts *(e.g. reading a section of a textbook).*
+* **Smart, context-aware AI mentors** act as in-house 24-hour tutors, employing a *socratic methodology* to guide the player through the learning process.
+* **The study lobbies** feature real-time competitive arenas and party rooms for players to engage in *Pomodoro-scheduled study sessions.*
 
-* **The Frontend:** Fast, responsive framework components backed by predictable state management. If it feels sluggish, it's a bug.
-* **The Backend:** Lightweight microservices and server layers focused on speed, low latency, and rock-solid data privacy.
-* **Automated CI/CD:** We run test coverage matrices automatically on every single Pull Request. If the build breaks, the robot catches it before a human even looks at it.
+#### Our Technology Stack
 
-### Join the Collective
+We're pragmatic about our tooling. We favor **modern well-documented codebases** which offer type-safety and high-performance.
 
-We are an open-source first organization. Every line of code we write is an invitation for you to build alongside us. 
+* **Application Layer:** We use performant front-end abstractions paired with predictable-state containers for our application layer. *You shouldn't feel frustrated with slow rendering or poor responsiveness.*
+* **Backend Layer:** We utilize performant microservices and headless API's in our backend layer.
+* **Deployment Pipeline:** We employ automated canary-checking and test-suite validation for every Pull Request. *If the robot is happy, your code should be too.*
 
-*(Note: We reserve the right to keep specific backend or security layers closed-source, but the core is yours.)* 
+---
 
-### Where you can help:
+### Contributing
 
-1. **Performance Hunting:** Help us optimize render cycles, streamline database queries, and patch memory leaks.
-2. **UI/UX Design:** If you care about typography, layout spacing, and buttery-smooth micro-interactions, we need your eyes.
-3. **Technical Writing:** Good code requires good documentation. Help us keep our onboarding guides dead-simple.
-4. **Issue Triage:** Finding weird edge cases and writing reproducible bug reports keeps our main branch clean.
+We are an **open source-first company**. All contributions are welcome, and encouraged.
 
-### Your First Contribution:
+*(Note: With that said, we reserve the right to keep certain technologies or algorithms closed source.)*
 
-* **Step 1:** Browse our GitHub repositories and find issues labeled good-first-issue or help-wanted.
-* **Step 2:** Leave a comment to get assigned, fork the repo, and spin up your local environment.
-* **Step 3:** Commit using structured, atomic messages and open a Pull Request.
+#### Ways to Help
+* **Performance Audits:** We're always looking for ways to optimize our render-trees, minimize DB overhead, and reduce memory leaks.
+* **UI/UX Design:** *Do you have a passion for typography and spacing?* We need you to help us design elegant interfaces.
+* **Technical Writing:** Our documentation is essential to your success in our projects. We need you to help us ensure it's *easy-to-grasp and accessible* to new developers.
+* **Issue Triage:** *Do you have an eye for catching edge cases?* We need you to help us find and document them.
+
+#### Getting Started
+1. **Navigate** to our github repositories and look for `good-first-issue` and `help-wanted` tags.
+2. **Ask** to be assigned an issue, then fork the repository and launch the application in your local environment.
+3. **Create** commits with well structured, *atomic-commit message formatting* and open a Pull Request.
+
+---
 
 ### Governance & Community
 
-Dobbm Studios runs on mutual respect. We have zero tolerance for toxic developer behavior, condescending code reviews, or gatekeeping. We want constructive peer reviews and a space where it's safe to make mistakes and learn. 
+We value code contribution, and we recognize the **time and effort** that goes into development.
 
-* **Code Reviews:** Every PR needs at least one approving review from a maintainer before merging.
-* **Licensing:** We default to permissive open-source licenses to keep our tools free and useful for the public.
+We ask that you follow *professional courtesy* and avoid condescension and toxic behavior in code reviews. We encourage you to participate in **constructive peer review and code auditing**.
+
+* **Code Review Process:** All code must receive at least *one approving review* from a maintainer prior to merge.
+* **Licensing:** We favor *permissive open source licensing* to maximize end user freedom.
