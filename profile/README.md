@@ -1,4 +1,4 @@
-### Dobbm Studios
+## Dobbm Studios
 
 ### Our Philosophy
 
