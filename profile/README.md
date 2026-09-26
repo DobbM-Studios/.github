@@ -19,8 +19,11 @@ We build everything around three basic rules: 
 Traditional school separates learning from engagement. **StudyOS** bridges that gap. We’re merging workspace productivity with RPG gaming mechanics, turning your academic grind into a shared digital adventure. 
 
 StudyOS Architecture Overview
+
  ├── Gamified Workspace (Kanban Quests, XP Milestones)
+ 
  ├── AI Mentorship Core (Context-Aware Tutoring)
+ 
  └── Peer-to-Peer Nexus (Real-time Flashcard Duels)
 
 #### Core Features:
